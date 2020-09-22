@@ -10,6 +10,8 @@
 
 int main(int argc, char** argv)
 {
+	int N = 1000000;
+	std::vector<short> res (N);
 	const int TEST_SIZE = 50;
 	Test_LinkedList tester(TEST_SIZE);
 	tester.runTests();
